@@ -5,9 +5,13 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{amsthm}
-\setcounter{section}{-1}
-% cover page inspired by Tarang S.
+\usepackage{outlines}
 
+% Start sections at 0
+\setcounter{section}{-1}
+
+
+% Table of Contents formatting
 \usepackage{tocloft}
 \renewcommand\cftsecfont{\normalfont}
 \renewcommand\cftsecpagefont{\normalfont}
@@ -15,63 +19,110 @@
 \renewcommand\cftsecdotsep{\cftdot}
 \renewcommand\cftsubsecdotsep{\cftdot}
 
+% formatting for links
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+% Pagestyles and headings
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{J. Yang}
 \lhead{Applied Aeronautics}
 \rfoot{Page \thepage}
-\setlength\parindent{0pt}
+
+% \noindent for the entire document
+\setlength\parindent{0pt} 
+
 \begin{document}
+	% cover page inspired by Tarang S.
 	\begin{titlepage}
 		\begin{center}
 			\vspace*{1cm}
 			\Huge
-			\textbf{Applied Aeronautics}\\
+				\textbf{Applied Aeronautics}\\
 			\vspace{0.5cm}
 			\LARGE
-			Independent Study Course Plan\\
+				Independent Study Course Plan\\
 			\vspace{1.5cm}
-			\textbf{John Yang}\\
+				\textbf{John Yang}\\
 			\vfill
 			\vspace{0.8cm}
 			\Large
-			Dr. Mesut B. \c{C}akir\\
-			South Brunswick High School\\
-			January 2020
+				Dr. Mesut B. \c{C}akir\\
+				South Brunswick High School\\
+				January 2020
 		\end{center}
 	\end{titlepage}
+
 \tableofcontents\newpage
 
+\textit{This course plan is subject to change any time at the discretion of the instructor or student.}
+
 \section{Course Overview}
-The independent study course in Applied Aeronautics serves as a practical and hands-on introduction to the fields of aerodynamics, airframe design, and aircraft systems. 
+The independent study course in Applied Aeronautics serves as a practical and hands-on introduction to the fields of aerodynamics and aircraft design.
+	\subsection{Overall Learning Objectives}
+		By the end of the course, the student aims to:
+			\begin{itemize}
+				\item Gain an intuitive understanding of fluids, aerodynamics, aircraft design, and aircraft performance
+				\item Be able to accurately and effectively analyze, simulate, and/or debrief a given situation
+				\item Apply their knowledge in the subject using working physical models
+			\end{itemize}
+	\subsection{Learning Methods}
+		This is not a traditional course of study, thus traditional learning methods should not be expected. The student should be a self-motivated and self-driven learner who can work independently with or without direct supervision. For each topic, the student is expected to find appropriate resources to guide their learning. The student should then take notes on the topic until they have reached a self-determined level of understanding. The student will then apply their knowledge in one or multiple projects. 
+	\subsection{Methods of Assessment}
+		Again, because this is not a traditional course, traditional assessments and tests will not be used. 
+			\begin{itemize}
+				\item The student will self-reflect on their own progress and learning. Ask the following questions:
+				\begin{itemize}
+					\item What are you trying to learn or gain from this topic?
+					\item Have you achieved that?
+					\item Could you explain this topic coherently to someone with no prior knowledge of the subject? Would they understand?
+				\end{itemize}
+				The student may choose whether they would like to internalize, verbalize, or record their responses in writing. 
+				\item If the student passes their own test, they may move onto the next step. If not, they should return to the material, look over their notes again, and consider what they are missing or what they do not yet understand. They should then fill in any gaps in their knowledge and administer the self-assessment again. 
+				\item The student will engage in periodic discussions with the instructor regarding their progress. The student is expected to verbally summarize what they have learned and/or accomplished. The instructor may pose further questions to the student for consideration. 
+				\item Once the student deems that they have sufficiently mastered the theoretical knowledge for a certain topic, they may then move onto the planned project(s) for that topic as an exercise in applying their knowledge. 
+				\item The outcome of the project should reflect that the student has learned the material sufficiently well that they are able to apply their knowledge beyond memorization or a recitation of facts. 
+			\end{itemize}
+	\subsection{Resources and materials}
+		\textbf{Materials}: Because this course involves many hands-on projects, certain physical materials will be needed to complete them. The student is expected to provide any necessary materials at their own expense. 
 
-\subsection{Overall Learning Objectives}
-By the end of the course, the student aims to:
-\begin{itemize}
-	\item Gain an intuitive understanding of fluids, aerodynamics, aircraft design, and aircraft performance
-	\item Be able to accurately and effectively analyze, simulate, and/or debrief a given situation
-	\item Apply their knowledge in the subject using working physical models
-\end{itemize}
-\subsection{Learning Methods}
-This is not a traditional course of study, thus traditional learning methods should not be expected. The student should be a self-motivated and self-driven learner who can work independently with or without teacher supervision. For each topic, the student is expected to find appropriate resources to guide their learning. The student should then take notes on the topic until they have reached a self-determined level of understanding. The student will then apply their knowledge in one or multiple projects. 
-\subsection{Methods of Assessment}
-Again, because this is not a traditional course, traditional assessments and tests will not be used. Instead, the student will use the following flow:
-\begin{enumerate}
-	\item The student will self-reflect on their own progress and learning. Ask the following questions:
-	\begin{enumerate}
-		\item What are you trying to learn or gain from this topic?
-		\item Have you achieved that?
-		\item Could you explain this topic coherently to someone with no prior knowledge of the subject? Would they understand?
-	\end{enumerate}
-	The student may choose whether they would like to internalize, verbalize, or record their responses in writing. 
-	\item If the student passes their own test, they may move onto the next step. If not, they should return to the material, look over their notes again, and consider what they are missing or what they do not yet understand. They should then fill in any gaps in their knowledge and administer the self-assessment again. 
-	
-\end{enumerate}
-\subsection{Resources and materials}
-
-\section{Quarter One Class Plans}
-\section{Quarter Two Class Plans}
-\section{Quarter Three Class Plans}
-\section{Quarter Four Class Plans}
+		\textbf{Resources}: The student may use any reliable internet or library resources. Some starting points include: 
+			\begin{itemize}
+				\item MIT OpenCourseWare
+				\item OpenStax Textbooks
+				\item NASA Glenn Research Center: 
+				\begin{itemize}
+					\item \href{https://www.grc.nasa.gov/www/k-12/airplane/short.html}{Aerodynamics Resources}
+					\item \href{https://www.grc.nasa.gov/www/k-12/UndergradProgs/index.htm}{CFD Programs}
+				\end{itemize}
+				\item OpenFOAM \href{https://cfd.direct/openfoam/user-guide/}{User Guide} and \href{https://cfd.direct/openfoam/documentation/}{Full Documentation}
+			\end{itemize}
+	\subsection{Course Prerequisites}
+		\begin{itemize}
+			\item Successful completion of AP Physics C or equivalent knowledge
+			\item Coenrollment in Multivariable Calculus and Linear Algebra or higher, or equivalent knowledge
+			\item Basic knowledge of CAD and command line interfaces (CLI)
+		\end{itemize}
+\section{Fluids and Aerodynamics}
+This portion of the course somewhat follows the material of MIT 16.100 (\href{https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-100-aerodynamics-fall-2005/index.htm}{OCW}). The student will gain an understanding of the mathematical and physical basis of aerodynamics. 
+	\subsection{Review of basic fluid dynamics}
+	\subsection{Lift and drag equations}
+	\subsection{2-D Potential Flow}
+	\subsection{2-D Panel Methods}
+	\subsection{Thin Airfoil theory and Vortex Lattice Methods}
+	\subsection{Lifting line and high aspect ratio wings}
+	\subsection{Compressibility and Quasi-1D Flow }
+	\subsection{Oblique Shock Waves and Expansion Fans}
+	\subsection{Navier-Stokes equations}
+	\subsection{Boundary layers - Laminar, Separation, Transition, Turbulence}
+	\subsection{Airfoils}
+\section{Flight Dynamics}
+The student will gain knowledge in how aerodynamics affects the flight characteristics of an aircraft, applicable to the person operating the aircraft. 
 \end{document}
