@@ -1,5 +1,6 @@
 # AppAero
-Applied Aeronautics Independent Study
+Applied Aerodynamics Independent Study
 
 Suggested textbooks:
 Anderson, John D. *Fundamentals of Aerodynamics*
+
