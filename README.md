@@ -1,2 +1,2 @@
 # AppAero
-Applied Aerondynamics Independent Study
+Applied Aerodynamics Independent Study
