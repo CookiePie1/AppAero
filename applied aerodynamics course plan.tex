@@ -1,0 +1,201 @@
+\documentclass[12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{outlines}
+
+% Start sections at 0
+\setcounter{section}{-1}
+
+
+% Table of Contents formatting
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand\cftsecpagefont{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecdotsep{\cftdot}
+\renewcommand\cftsubsecdotsep{\cftdot}
+
+% formatting for links
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+
+% Pagestyles and headings
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{J. Yang}
+\lhead{Applied Aerodynamics}
+\rfoot{Page \thepage}
+
+% \noindent for the entire document
+\setlength\parindent{0pt} 
+
+\begin{document}
+	% cover page inspired by Tarang S.
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{1cm}
+			\Huge
+				\textbf{Applied Aerodynamics}\\
+			\vspace{0.5cm}
+			\LARGE
+				Independent Study Course Plan\\
+			\vspace{1.5cm}
+				\textbf{John Yang}\\
+			\vfill
+			\vspace{0.8cm}
+			\Large
+				Dr. Mesut B. \c{C}akir\\
+				South Brunswick High School\\
+				January 2020
+		\end{center}
+	\end{titlepage}
+
+\tableofcontents\newpage
+
+\textit{This course plan is subject to change any time at the discretion of the instructor or student.}
+
+\section{Course Overview}
+The independent study course in Applied Aerodynamics serves as a practical and hands-on introduction to the fields of aerodynamics, aircraft design, and aircraft operations.
+	\subsection{Overall Learning Objectives}
+		By the end of the course, the student aims to: 
+			\begin{itemize}
+				\item Gain an intuitive and computational understanding of fluids, aerodynamics, aircraft design, and aircraft performance
+				\item Be able to accurately and effectively analyze, simulate, and/or explain a given situation
+				\item Apply their knowledge in the subject using working physical models
+			\end{itemize}
+	\subsection{Learning Methods}
+		This is not a traditional course of study, thus traditional learning methods should not be expected. The student should be able to work independently with or without direct supervision. For each topic, the student is expected to find appropriate resources to guide their learning. The student should then take notes on the topic until they have reached a self-determined level of understanding. The student will then complete a self assessment (described below). The student will then apply their overall knowledge near the end of the course in a series of projects.  
+	\subsection{Methods of Assessment}
+		Again, because this is not a traditional course, traditional assessments and tests will not be used. 
+			\begin{itemize}
+				\item The student will self-reflect on their own progress and learning. Ask the following questions:
+				\begin{itemize}
+					\item What are you trying to learn or gain from this topic?
+					\item Have you achieved that?
+					\item Could you explain this topic coherently to someone with no prior knowledge of the subject? Would they understand?
+				\end{itemize}
+				The student may choose whether they would like to internalize, verbalize, or record their responses in writing. 
+				\item If the student passes their own test, they may move onto the next step. If not, they should return to the material, look over their notes again, and consider what they are missing or what they do not yet understand. They should then fill in any gaps in their knowledge and administer the self-assessment again. 
+				\item In addition to the notes, keep a running concise review document for the entire course. Update it after each topic.  
+				\item Write one to three free-response test questions, and provide solutions. 
+				\item The student will engage in periodic discussions with the instructor regarding their progress. The student is expected to verbally summarize what they have learned and/or accomplished. The instructor may pose further questions to the student for consideration. 
+			\end{itemize}
+	\subsection{Resources and materials}
+		\textbf{Materials}: Because this course involves hands-on projects, certain physical materials will be needed to complete them. The student is expected to provide any necessary materials at their own expense. 
+
+		\textbf{Resources}: The student may use any reliable internet or library resources. Suggested resources are provided for each section of the course.  
+	\subsection{Course Prerequisites}
+		\begin{itemize}
+			\item Successful completion of AP Physics C or equivalent knowledge
+			\item Coenrollment in Multivariable Calculus and Linear Algebra or higher, or equivalent knowledge
+			\item Basic knowledge of CAD and command line interfaces
+		\end{itemize}
+		\section{Topics}
+		\subsection{Fluids and Aerodynamics}
+This portion of the course is based on the material of MIT 16.100 (\href{https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-100-aerodynamics-fall-2005/index.htm}{OCW}). The student will gain an understanding of the mathematical and physical basis of aerodynamics. 
+		\begin{outline}[enumerate]
+			\1 Review of basic fluid dynamics
+				\2 Brief review of Newtonian dynamics 
+				\2 Buoyancy
+				\2 Bernoulli's equation 
+				\2 Basic ideal fluid flow 
+			\1 Lift and drag equations
+				\2 Coefficients of lift and drag
+			\1 2-D potential flow 
+			\1 2-D panel methods 
+			\1 Thin airfoil theory and vortex lattice methods
+			\1 Lifting line and high aspect ratio wings
+			\1 Compressibility and quasi-1D flow 
+			\1 Oblique shock waves and expansion flows 
+			\1 Navier-Stokes equations
+			\1 Boundary layers - laminar, separation, transition, turbulence 
+			\1 Airfoils
+			\1 Computational fluid dynamics 
+				\2 Project 1: CFD
+			\1 Cumulative projects: aircraft design
+				\2 Project 2: Walkalong Glider
+				\2 Project 3: Paper Airplane 
+				\2 Project 4: 
+		\end{outline}
+	\subsection{Flight Dynamics}
+		The student will learn how aerodynamics affects the flight characteristics of an aircraft, applicable to the person operating the aircraft. \\
+
+		This portion of the course is based on the aerodynamics portions of the FAA Private Pilot knowledge test (\href{https://www.law.cornell.edu/cfr/text/14/61.105}{14 CFR \S{} 61.105})
+		\begin{outline}[enumerate]
+			\1 Basic aircraft aerodynamics
+			\1 Aircraft performance
+			\1 Aerodynamic basis for normal and emergency operations 
+			\1 Aircraft Maneuvers
+			\1 Weather effects
+		\end{outline}
+	\section{Projects}
+	The student will engage in a series of projects as a way of demonstating and applying their knowledge. 
+		\subsection{Project one: CFD}
+			Use computational fluid dynamics software to analyze 2D and 3D moving bodies. 
+			\textbf{Guidelines:}
+			\begin{outline}
+				\1 Install the OpenFOAM software
+				\1 Learn the basics of how to use it 
+				\1 Choose three or four airfoils. Run simulations and compare them. 
+				\1 Design some objects in CAD or find them online. Run simulations and discuss their aerodynamics. 
+				\1 Publish your findings. 
+			\end{outline}
+			\textit{This project can be completed for free. }
+		\subsection{Project two: Walkalong Glider}
+			Construct a walkalong glider that sustains flight for as long as possible. 
+			
+			\textbf{Guidelines: }
+			\begin{outline}
+				\1 The cardboard plane should be no larger than a standard tri-fold poster board. It can be smaller. 
+				\1 Research a few designs and/or come up with your own. Test and compare them. 
+				\1 Publish your findings. 
+			\end{outline}
+			\textit{This project should be doable in less than fifteen dollars, out of pocket. }
+		\subsection{Project three: Paper Airplane}
+			Create a paper airplane that flies the longest possible distance and/or time in a school hallway. 
+			
+			\textbf{Guidelines: }
+				\begin{outline}
+					\1 The airplanes should be designed to fly in a school hallway. That is, it should fly relatively straight and it should not require a high ceiling. 
+					\1 Available materials are limited to standard 20 lb paper, scotch or masking tape, and/or paperclips. 
+					\1 Research several designs and/or come up with your own. 
+					\1 Design one airplane for distance, and one for time. 
+					\1 Create an instruction manual on how to construct your final design. Accompany it with appropriate technical drawings. 
+					\1 Present your findings. 
+				\end{outline}
+				\textit{This project can be completed for free, or at most around five dollars. }
+		\subsection{Project four: }
+	\section{Expected timeline}
+		In each quarter, there are about 21-22 class periods. This timeline is designed to be very flexible. Dr. Cakir's classes engage in group discussions on Fridays.\\ 
+		
+		Quarter One: Fluid dynamics review through Compressibility and quasi-1D flow. For this quarter, the student should dedicate two to three class periods to each major subtopic. \\
+		
+		Quarter Two: Oblique shock waves and expansion flows through Airfoils. For this quarter, the student should dedicate three to four class periods per subtopic. \\
+		
+		Quarter Three: All topics within Flight Dynamics. For this quarter, the student should dedicate about three class periods per subtopic. \\
+		
+		Quarter Four: Projects. The student should aim to complete as many projects as possible. More projects are proposed here than are likely possible in this period of time, so it is up to the student to choose which ones to pursue. If they complete earlier topics sooner, they will have more time for projects. \\
+
+	\section{Resources}
+		\begin{itemize}
+			\item MIT OCW 16.100, 16.687
+			\item Main textbook: \textit{Fundamentals of Aerodynamics}, Anderson, 5th Edition
+			\item NASA Glenn Research Center: 
+			\begin{itemize}
+				\item \href{https://www.grc.nasa.gov/www/k-12/airplane/short.html}{Aerodynamics Resources}
+				\item \href{https://www.grc.nasa.gov/www/k-12/UndergradProgs/index.htm}{Online Simulations}
+			\end{itemize}
+			\item OpenFOAM \href{https://cfd.direct/openfoam/user-guide/}{User Guide} and \href{https://cfd.direct/openfoam/documentation/}{Full Documentation}
+			\item \href{http://openvsp.org/}{openVSP}
+		\end{itemize}
+\end{document}
