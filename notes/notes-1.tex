@@ -1,0 +1,45 @@
+\documentclass{article}
+\title{Aero Sect. 1 Notes} % title
+\author{John Yang}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[margin=1in, letterpaper]{geometry}
+\usepackage{outlines}
+\setcounter{section}{0} % chapter number minus 1
+\usepackage{mathtools}
+\DeclarePairedDelimiter\set\{\}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+\usepackage{tocloft}
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand\cftsecpagefont{\normalfont}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftsecdotsep}}
+\renewcommand\cftsecdotsep{\cftdot}
+\renewcommand\cftsubsecdotsep{\cftdot}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \section{Basic Aerodynamic Principles}
+    \subsection{Vocabulary}
+    \begin{outline}
+        \1 Pressure: limiting form of the force per unit area: \[p=\lim\left(\dfrac{dF}{dA}\right)\]
+            \2 Pressure is a point property; it can have different values within the fluid. 
+        \1 Density: \[\rho=\lim\dfrac{dm}{dv}\qquad dv\to0\]
+        \1 Aerodynamics - fluids in motion is key; we use streamlines to represent them. 
+        \1 Center of pressure - the location where the resultant of a distributed load effectively acts on an aerodynamic body. 
+
+    \end{outline}
+    \subsection{Engineering applications of lift and drag coefficients}
+    \begin{outline}
+        \1 Engineers are concerned with the coefficients of lift and drag and how they are changed inflight, unintentionally or intentionally. 
+        \1 Certain devices can be used to intentionally change these coefficients, like flaps, slats, spoilers, etc. 
+        \1 Lift and drag coefficients are constantly changing; they can depend on the airspeed, angle of attack, and many other factors. Thus, engineers must analyze and design aircraft based on empirical data. 
+
+    \end{outline}
+\end{document}
