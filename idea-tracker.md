@@ -10,7 +10,7 @@
 * Urbanism and urban planning
 * Transportation design and engineering
 * Access and inclusion
-* Architecture and the capturing of space and volume
+* Architecture: capturing space and volume
 
 ## Design exercises, projects, quick ideas
 * Solutions to bridge and hallway congestion at SBHS
