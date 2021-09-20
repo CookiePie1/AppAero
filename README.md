@@ -20,11 +20,12 @@ Suggested textbook: Anderson, *Fundamentals of Aerodynamics*, 5th edition
 ## Design exercises, projects, quick ideas
 * Solutions to bridge and hallway congestion at SBHS
 * Science-informed COVID-19 protocols for SBHS
+* Redesign Rt. 1/Henderson Rd. intersection
 
 ## Other cool stuff:
 * LTL Architects: [Manual of Physical Distancing](https://issuu.com/djlewis72/docs/200622_manualphysicaldistancing_draft)
 
-## Additional topics: 
+## Additional resources: 
 * Urban planning
 [MIT 11.550x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+11.550x+1T2021/course/) - Leveraging Urban Mobility Disruptions to Create Better Cities
 * [MIT 11.001](https://ocw.mit.edu/courses/urban-studies-and-planning/11-001j-introduction-to-urban-design-and-development-spring-2006/) - Introduction to Urban Design and Development
