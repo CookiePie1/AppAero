@@ -1,6 +1,6 @@
 # AppAero
-Applied Aerodynamics Independent Study
-MIT OCW 16.100
+2022 Independent Study - Applied Aerodynamics, Urbanism, Transportation Design and Engineering  
+MIT OCW 16.100  
 MIT OCW 16.687
 
 Suggested textbook: Anderson, *Fundamentals of Aerodynamics*, 5th edition
