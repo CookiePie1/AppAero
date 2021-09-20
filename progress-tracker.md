@@ -12,3 +12,8 @@
     2. New SBHS hallway trafic pattern proposal/redesign
     3. Finish: What makes a city a city?
     4. Start and finish: How do we see and observe a city?
+    
+- Further topics:
+    * Rt 1/Henderson
+    * NIMBY/YIMBY ideologies
+    * Public transit
