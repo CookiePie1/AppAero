@@ -12,7 +12,8 @@
     2. New SBHS hallway trafic pattern proposal/redesign
     3. Finish: What makes a city a city?
     4. Start and finish: How do we see and observe a city?
-    
+4. Day 4: Urbanism, day 3
+    1. 
 - Further topics:
     * Rt 1/Henderson
     * NIMBY/YIMBY ideologies
