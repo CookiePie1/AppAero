@@ -13,7 +13,10 @@
     3. Finish: What makes a city a city?
     4. Start and finish: How do we see and observe a city?
 4. Day 4: Urbanism, day 3
-    1. 
+    1. Begin notes section 2: introduction to 11.550x
+5. Day 5: Urbanism, day 4
+    1. Finish notes section 2
+    2. Begin notes section 3
 - Further topics:
     * Rt 1/Henderson
     * NIMBY/YIMBY ideologies
