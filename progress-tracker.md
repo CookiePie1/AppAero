@@ -17,6 +17,10 @@
 5. Day 5: Urbanism, day 4
     1. Finish notes section 2
     2. Begin notes section 3
+6. Day 6: Urbanism, day 5
+    1. Continue section 3: land use and urban form
+    2. Begin section 4: 20th Century Architecture and the City
+
 - Further topics:
     * Rt 1/Henderson
     * NIMBY/YIMBY ideologies
