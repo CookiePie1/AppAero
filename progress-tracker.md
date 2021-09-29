@@ -20,6 +20,8 @@
 6. Day 6: Urbanism, day 5
     1. Continue section 3: land use and urban form
     2. Begin section 4: 20th Century Architecture and the City
+7. Day 7: Urbanism, day 6
+    1. Complete section 4
 
 - Further topics:
     * Rt 1/Henderson
