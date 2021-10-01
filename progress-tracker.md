@@ -22,6 +22,8 @@
     2. Begin section 4: 20th Century Architecture and the City
 7. Day 7: Urbanism, day 6
     1. Complete section 4
+8. Day 8: Urbanism, day 7
+    1. Continue section 3
 
 - Further topics:
     * Rt 1/Henderson
