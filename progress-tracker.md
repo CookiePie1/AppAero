@@ -24,6 +24,9 @@
     1. Complete section 4
 8. Day 8: Urbanism, day 7
     1. Continue section 3
+9. Day 9: Aerodynamics, day 1
+    1. Research plans and build materials for WS-22 (section 5)
+
 
 - Further topics:
     * Rt 1/Henderson
