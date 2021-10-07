@@ -1,4 +1,7 @@
 # Progress Tracking: Independent Study
+
+## Quarter 1
+
 1. Day 1: Cakir Orientation, Course beginnings
     1. Started Aero Notes
     2. Outdoor lecture
@@ -26,9 +29,11 @@
     1. Continue section 3
 9. Day 9: Aerodynamics, day 1
     1. Research plans and build materials for WS-22 (section 5)
-
-
-- Further topics:
-    * Rt 1/Henderson
-    * NIMBY/YIMBY ideologies
-    * Public transit
+10. Day 10: Urbanism, day 8
+    1. Finish section 3
+    2. Begin section 6, human factors in mobility design
+    
+## Further topics:
+* Rt 1/Henderson
+* NIMBY/YIMBY ideologies
+* Public transit
