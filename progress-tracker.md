@@ -32,7 +32,9 @@
 10. Day 10: Urbanism, day 8
     1. Finish section 3
     2. Begin section 6, human factors in mobility design
-    
+11. Day 11: Urbanism, day 9
+    1. Continue section 6
+
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
