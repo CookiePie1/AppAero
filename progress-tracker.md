@@ -34,7 +34,9 @@
     2. Begin section 6, human factors in mobility design
 11. Day 11: Urbanism, day 9
     1. Continue section 6
-
+12. Day 12: Urbanism, day 10
+    1. Finish section 6
+    2. Begin thinking of ideas for quarter projects/cumulatives
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
