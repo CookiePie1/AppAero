@@ -37,6 +37,8 @@
 12. Day 12: Urbanism, day 10
     1. Finish section 6
     2. Begin thinking of ideas for quarter projects/cumulatives
+13. Day 13: MCLA study session
+
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
