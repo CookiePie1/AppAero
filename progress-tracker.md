@@ -38,6 +38,8 @@
     1. Finish section 6
     2. Begin thinking of ideas for quarter projects/cumulatives
 13. Day 13: MCLA study session
+14. Day 14: Q1 Proj., day 1
+    1. Discussion
 
 ## Further topics:
 * Rt 1/Henderson
