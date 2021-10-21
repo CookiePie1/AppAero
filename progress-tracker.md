@@ -40,6 +40,11 @@
 13. Day 13: MCLA study session
 14. Day 14: Q1 Proj., day 1
     1. Discussion
+    2. Brainstorming
+15. Day 15: Mini proj. day 1
+    1. Map out existing transit available in the New Brunswick/surrounding area
+    2. Propose new transit, treating New Brunswick as its own urban center
+    3. Begin CADing
 
 ## Further topics:
 * Rt 1/Henderson
