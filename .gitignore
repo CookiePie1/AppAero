@@ -2,6 +2,10 @@
 Fundamentals of Aerodynamics Anderson.pdf
 ModernPhysics-Krane-3ed.pdf
 
+## AutoCAD Files
+*.bak
+*.dwl
+*.dwl2
 
 ## OCW Materials
 OCW-16-100/
