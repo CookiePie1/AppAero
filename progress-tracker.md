@@ -45,7 +45,9 @@
     1. Map out existing transit available in the New Brunswick/surrounding area
     2. Propose new transit, treating New Brunswick as its own urban center
     3. Begin CADing
-
+16. Day 15: Mini proj. day 2
+    1. Finish CADing and docs
+    2. Start trying to use OpenFOAM CFD
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
