@@ -51,7 +51,10 @@
 17. Day 17: Walkalong gliders, day 1
     1. Construction and practice
     2. Start docs
-
+18. Day 18: Gliders, day 2
+    1. Docs
+    2. Catch-up on section 5
+    3. Brainstorm overall shapes for city design
 
 ## Further topics:
 * Rt 1/Henderson
