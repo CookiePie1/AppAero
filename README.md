@@ -1,4 +1,4 @@
-# AppAero
+# IS22
 2022 Independent Study - Applied Aerodynamics, Urbanism, Transportation Design and Engineering  
 
 ## Navigating this repository - Please Read!
