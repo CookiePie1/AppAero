@@ -55,6 +55,10 @@
     1. Docs
     2. Catch-up on section 5
     3. Brainstorm overall shapes for city design
+    4. Fall break:
+        1. Self Assessment
+        2. Start city design project
+        3. Polish miscellaneous documents
 
 ## Further topics:
 * Rt 1/Henderson
