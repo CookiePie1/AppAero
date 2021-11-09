@@ -59,7 +59,9 @@
         1. Self Assessment
         2. Start city design project
         3. Polish miscellaneous documents
-
+19. Day 19: Urbanism, day 11
+    1. Work on notes 7 - reflections on trips to various cities. 
+    
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
