@@ -61,7 +61,9 @@
         3. Polish miscellaneous documents
 19. Day 19: Urbanism, day 11
     1. Work on notes 7 - reflections on trips to various cities. 
-    
+    2. Continue map project
+20. Day 20: Urbanism, day 12
+    1. Continue project
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
