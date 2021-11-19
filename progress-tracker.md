@@ -64,6 +64,11 @@
     2. Continue map project
 20. Day 20: Urbanism, day 12
     1. Continue project
+21. Day 21: Urbanism, day 13
+    1. Continue project
+22. Day 22: Q1 last day
+    1. Cakir's life story
+    2. Street names & continue project
 ## Further topics:
 * Rt 1/Henderson
 * NIMBY/YIMBY ideologies
