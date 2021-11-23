@@ -4,6 +4,8 @@
 1. Day 1
     1. Brainstorm housing solutions
     2. Continue assigning street names
+2. Day 2
+    1. Continue street names
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings

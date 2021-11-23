@@ -32,39 +32,107 @@ Design Log:
     * Traffic. One way streets, stoplights, controlled intersections, etc. 
 6. Street Names
     * These names have a variety of inspirations, from cities like Chicago and others. 
-    * 0E/W: N/S Central Ave
-    * ON/S: E/W Main St
-        * Central and Main are very "important" names, and they are being used for the two center streets of the entire city. 
-    * 400N: E/W State St
-    * 400S: E/W Walnut St
-    * NE road: International Blvd - connects to Airport Rd [Quadrant 1, 45 deg. N of E]
-    * Quadrant 1, 27 deg N of E: Rainbow Rd
-    * Quadrant 4, 27 deg S of E: Martin Luther King Jr. Blvd (MLK Blvd)
-    * Quadrant 4, 45 deg S of E: Euclid Ave
-    * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
-    * Quadrant 3, 63 deg S of W: Michigan Ave
-    * Quadrant 3, 45 deg S of W: Dempster St
-    * Quadrant 3, 27 deg S of W: Bedford Ave
-    * Quadrant 2, 27 deg N of W: Carnegie St
-    * Quadrant 2, 45 deg N of W: Lincoln Ave
-    * Quadrant 2, 63 deg N of W: Elizabeth Cady Stanton Ave (Stanton Ave)
-    * Quadrant 1, 63 deg N of E: Amsterdam Ave
-    * Quadrant 1, 53 deg N of E: Schuylkill St
-    * 
+    * Grid system: Each minor block is 1/8 mile, which is 660 feet. Thus, 8 blocks is a mile. In each minor block there are 100 possible address numbers, and the next block starts at the next 100. Thus, you can figure out where you are in the city based only on the grid coordinates. The normal grid streets have a direction in front of the street name, ex. N. Central Ave. This is the portion of Central Ave that runs in the north half of the city. Same applies for S, E, and W. 
+    * Major East-West Streets
+        * ON/S: E/W Main St
+        * 400N: E/W State St
+        * 400S: E/W Walnut St
+        * 1200N: 
+        * 1200S:
+        * 2000N:
+        * 2000S:
+        * 2800N:
+        * 2800S:
+        * 3600N:
+        * 3600S:
+        * 4400N:
+        * 4400S:
+        * 5200N:
+        * 5200S:
+        * 6000N:
+        * 6000S:
+        * 6800N:
+        * 6800S:
+        * 7600N:
+        * 7600S:
+        * 8400N:
+        * 8400S:
+        * 9200N:
+        * 9200S:
+        * 10000N:
+        * 10000S:
+    * Major North-South Streets
+        * 0E/W: N/S Central Ave
+        * 400E: N/S Grand Ave
+        * 400W: N/S Lafayette St
+        * 1200E: N/S Coretta St
+        * 1200W: N/S Foster St
+        * 2000E: N/S Division Ave
+        * 2000W: N/S Dempster St
+        * 2800E: N/S Gary St
+        * 2800W: N/S 
+        * 3600E: N/S 
+        * 3600W: N/S 
+        * 4400E: N/S 
+        * 4400W: N/S 
+        * 5200E: N/S 
+        * 5200W: N/S 
+        * 6000E: N/S 
+        * 6000W: N/S 
+        * 6800E: N/S 
+        * 6800W: N/S 
+        * 7600E: N/S 
+        * 7600W: N/S 
+        * 8400E: N/S 
+        * 8400W: N/S 
+        * 9200E: N/S 
+        * 9200W: N/S 
+        * 10000E: N/S 
+        * 10000W: N/S 
+    * Diagonal Streets
+        * Quadrant 1, 45 deg N of E: International Blvd - connects to Airport Rd
+        * Quadrant 1, 27 deg N of E: Rainbow Rd
+        * Quadrant 1, 63 deg N of E: Amsterdam Ave
+        * Quadrant 1, 53 deg N of E: Schuylkill St
+        * Quadrant 1, 37 deg N of E: Clybourne St
+        * Quadrant 1, 14 deg N of E: Union Ave
+        * Quadrant 1, 76 deg N of E: Sussex St
+        * Quadrant 2, 14 deg N of W: Frost St
+        * Quardant 2, 37 deg N of W: Village St
+        * Quadrant 2, 53 deg N of W: Cypress St
+        * Quadrant 2, 76 deg N of W: Logan St
+        * Quadrant 2, 27 deg N of W: Carnegie St
+        * Quadrant 2, 45 deg N of W: Lincoln Ave
+        * Quadrant 2, 63 deg N of W: Elizabeth Cady Stanton Ave (Stanton Ave)
+        * Quadrant 3, 63 deg S of W: Michigan Ave
+        * Quadrant 3, 45 deg S of W: Dempster St
+        * Quadrant 3, 27 deg S of W: Bedford Ave
+        * Quadrant 3, 76 deg S of W: Greenpoint Ave
+        * Quadrant 3, 53 deg S of W: Newark Ave
+        * Quadrant 3, 37 deg S of W: Spring St
+        * Quadrant 3, 14 deg S of W: Locust St
+        * Quadrant 4, 14 deg S of E: Jersey Ave
+        * Quadrant 4, 37 deg S of E: Branch St
+        * Quadrant 4, 53 deg S of E: Lexington St
+        * Quadrant 4, 76 deg S of E: Holyoke St
+        * Quadrant 4, 27 deg S of E: Martin Luther King Jr. Blvd (MLK Blvd)
+        * Quadrant 4, 45 deg S of E: Euclid Ave
+        * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
+
 
 <!--Street name ideas:
-Grand
 Camden
-Clybourne
-Greenpoint
-
+Chambers
+Foster
+Grant
 Numerical
 Dempster
 William
 Countries
-
+Armitage
+Ashland
+Broadway
 Monmounth
-Sussex
 Letters
 Santa Fe
 Halsted
@@ -74,7 +142,7 @@ Belmont
 Wabash
 Michigan
 Wisconsin
-Jersey
+
 
 Massachusetts Ave
 Luxardo
@@ -97,10 +165,10 @@ Philadelphia
 St. Louis
 Worcester
 Reed
-Branch
-Union
+
+
 Division
-Lexington
+
 Kansas
 Missouri
 Cesar Chavez
