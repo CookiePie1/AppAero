@@ -6,6 +6,10 @@
     2. Continue assigning street names
 2. Day 2
     1. Continue street names
+3. Day 3
+    1. Finish street names
+4. Day 4
+
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
