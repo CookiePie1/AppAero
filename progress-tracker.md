@@ -9,7 +9,11 @@
 3. Day 3
     1. Finish street names
 4. Day 4
-
+    1. Urban housing solutions
+    2. Cakir lecture
+5. Day 5
+    1. Finish urban housing notes
+6. 
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
