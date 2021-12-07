@@ -13,7 +13,9 @@
     2. Cakir lecture
 5. Day 5
     1. Finish urban housing notes
-6. 
+6. Day 6
+    1. Residences, zoning (proj)
+    
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
