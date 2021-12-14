@@ -15,7 +15,13 @@
     1. Finish urban housing notes
 6. Day 6
     1. Residences, zoning (proj)
-    
+7. Day 7
+    1. Zoning (proj)
+    2. Notes: land use and zoning
+8. Day 8
+    1. Notes: land use and zoning
+    2. Zoning (proj)
+9. 
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
