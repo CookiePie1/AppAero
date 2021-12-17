@@ -118,60 +118,32 @@ Design Log:
         * Quadrant 4, 27 deg S of E: Martin Luther King Jr. Blvd (MLK Blvd)
         * Quadrant 4, 45 deg S of E: Euclid Ave
         * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
+7. Zoning
+    * Format: Zone [Type]-[Subtype]-[ID]: Name (optional)
+    * Zoning types:
+        * I - Industrial - purple
+            * H, M, L - Heavy, Medium, Light
+                * \# - ID number
+        * C - Commercial - cyan
+            * H, M, L - High rise, Medium rise, Low rise
+                * \# - ID number
+        * R - Residential - yellow
+            * H, M, L - High density (high rise), Medium rise, Low rise
+                * \# - ID number
+        * P - Park - green
+        * M - Mixed-use - red
+        * O - Other - includes government buildings, universities, etc. - orange
+    * Used zones:
+        * Industrial
+            * I-H-1: Airport (6800N/6800E,9200N/9200E) - 9 sqmi
+            * I-H-2: Ground Freight (8400N/2000E,10000N/5200E) - 8 sqmi
+            * I-H-3: Rail Yard (6300N/6800E,6700N/8200E)- 7/8 sqmi
+            * I-H-4: Rail Yard (/,/) - 1 sqmi
+            * I-H-5: Rail Yard (/,/) - 1 sqmi
+            * I-H-6: Rail Yard (/,/) - 1 sqmi
+            * I-H-7: Rail Yard (/,/) - 1 sqmi
+            * I-H-8: Rail Yard (/,/) - 1 sqmi
+            * I-M-1: Water Treatment Plant
 
 
-<!--Street name ideas:
-Camden
-Chambers
-Foster
-Grant
-Numerical
-Dempster
-William
-Countries
-Armitage
-Ashland
-Broadway
-Monmounth
-Letters
-Santa Fe
-Halsted
-Racine
-Fullerton
-Belmont
-Wabash
-Michigan
-Wisconsin
 
-
-Massachusetts Ave
-Luxardo
-Archer
-Cermak
-Canal
-River
-Lake
-Pond
-North
-South
-
-Forest
-Wood
-Birmingham
-Indianapolis
-Chicago
-New York
-Philadelphia
-St. Louis
-Worcester
-Reed
-
-
-Division
-
-Kansas
-Missouri
-Cesar Chavez
-
--->
-Work in progress: The city map will include street and place names, land use zoning, public transit, additional parks, universities, etc. 

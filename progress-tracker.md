@@ -21,7 +21,10 @@
 8. Day 8
     1. Notes: land use and zoning
     2. Zoning (proj)
-9. 
+9. Day 9
+    1. Absent
+10. Day 10
+    1. Zoning (proj)
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
