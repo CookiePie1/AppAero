@@ -1,4 +1,4 @@
-# City Map Project [Work in Progress]
+# City Map Project
 
 The aim of this project is to apply principles of urban planning and transportation planning to create my own "ideal city". 
 
