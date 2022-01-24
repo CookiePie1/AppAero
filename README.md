@@ -21,6 +21,9 @@ Suggested textbook: Anderson, *Fundamentals of Aerodynamics*, 5th edition
 [MIT OCW 1.258J](https://ocw.mit.edu/courses/civil-and-environmental-engineering/1-258j-public-transportation-systems-spring-2017/index.htm)
 * Modern Physics: Krane 3e
 
+PPL Ground School
+*FAA Private Pilot Knowledge Test Prep, 2022 Edition* by Gleim Aviation
+
 ## Course topics:
 * Basic principles of aerodynamics
 * Applications to aircraft design
