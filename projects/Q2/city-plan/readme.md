@@ -2,15 +2,7 @@
 
 The aim of this project is to apply principles of urban planning and transportation planning to create my own "ideal city". 
 
-Progress screenshots: 
-
-Overall city view, showing major streets. There is a grid system, where there is a major street every mile, running E/W and N/S. There are also radial major streets that allow easier diagonal travel. Exception to this rule: There are two major streets running directly N/S and E/W of the city's geographical center, which is a half-mile away from the nearest parallel major streets. 
-![](./overall.png)
-
-City center view, showing some minor streets. The grid system's numbering is shown as well. Each minor block has 100 possible address numbers, with 800 numbers in a mile (each minor block is 1/8 mile). At the center of the city is a common park/gathering spot. The central circle is a large plaza, and the inner square is an elevated platform. Dashed lines indicate walking paths, and the minor circles scattered around the central square are meant to be smaller gathering spots. 
-![](./center-city.png)
-
-Design Log:
+## Design Log
 
 1. Decision 1: Overall shape
     * I considered a few different shapes for this imaginary city: concentric circles with radiating streets (like polar coordinates), a rectangular grid system (cartesian), and a city centered around a river as many are. 
@@ -119,31 +111,37 @@ Design Log:
         * Quadrant 4, 45 deg S of E: Euclid Ave
         * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
 7. Zoning
-    * Format: Zone [Type]-[Subtype]-[ID]: Name (optional)
     * Zoning types:
-        * I - Industrial - purple
-            * H, M, L - Heavy, Medium, Light
-                * \# - ID number
-        * C - Commercial - cyan
-            * H, M, L - High rise, Medium rise, Low rise
-                * \# - ID number
-        * R - Residential - yellow
-            * H, M, L - High density (high rise), Medium rise, Low rise
-                * \# - ID number
-        * P - Park - green
-        * M - Mixed-use - red
-        * O - Other - includes government buildings, universities, etc. - orange
-    * Used zones:
-        * Industrial
-            * I-H-1: Airport (6800N/6800E,9200N/9200E) - 9 sqmi
-            * I-H-2: Ground Freight (8400N/2000E,10000N/5200E) - 8 sqmi
-            * I-H-3: Rail Yard (6300N/6800E,6700N/8200E)- 7/8 sqmi
-            * I-H-4: Rail Yard (/,/) - 1 sqmi
-            * I-H-5: Rail Yard (/,/) - 1 sqmi
-            * I-H-6: Rail Yard (/,/) - 1 sqmi
-            * I-H-7: Rail Yard (/,/) - 1 sqmi
-            * I-H-8: Rail Yard (/,/) - 1 sqmi
-            * I-M-1: Water Treatment Plant
+        * Industrial - purple
+            * Includes rail yards, airports, water treatment plant, ground transportation center, and other logistics. 
+        * Commercial - cyan
+            * The only designated commercial-only area is the area surrounding the airport, so as to disallow undesirable housing due to increased noise, pollution, etc. 
+        * Mixed use - various colors of red
+            * Most zones outside of industrial zones and the area surrounding the airport are classified as mixed-use. Radiating outward, differently colored zones indicate building height/density, which decreases going outward. 
+        * Other - yellow
+            * The only designated "other" zone is near downtown, and is reserved for public/government buildings. As they are in the city center, they must be high-rise and fit within the architectural context of the area. 
+    * When designing my city, I initially considered zoning areas separately in "rings" extending outward from the city center, like older versions of the "ideal city" proposed by urban planners that include central business districts and dedicated housing zones. However, I realized that severely limiting the use of land to a single, specific usage was undesirable, because it causes transportation congestion at concentrated times of day, can increase commute times, and is generally less sustainable. Public safety is also impacted, because business districts tend to become deserted after 6 or 7 PM each night; people who walk alone at night for whatever reason face unnecesarry risks. 
+    * In my mixed-use approach, I approach urban development by setting specific recommended usages and quotas. For example, within one block, there must be a certain square-footage range dedicated to restaurants, retail, businesses, housing, affordable housing, etc. 
+8. Further improvements
+    * If this project were to be more detailed, and real GIS data available, I would probably be able to create much more specific and appropriate zoning usages. However, keep in mind that city plans are typically created over the course of several years by teams of many people. This has proved to be a thought-provoking design exercise. 
+    * The street layout of the city is subject to change. Developments that are larger in land footprint that don't require interspersed roads within can warrant the deletion of sections of minor streets. However, care should be taken to avoid demolition of major streets for the sake of continuity. 
+    * In a real city, there will obviously be more parks than just the one in the city center. More detailed design would warrant the placement of parks in equitable locations throughout. Parks and open space are known to be critical to the mental and physical health of city inhabitants. Experiencing nature should be a routine part of everyday life, and the city's design should facilitate that. 
+9. Technology and transportation
+    * We imagine this city to exist in a car-independent fashion. Public transit takes precedence over all other forms, and while cars do exist, they are not singly owned and used by individuals. Businesses may own cars and larger trucks for the sake of utility. 
+    * We imagine several layers of underground tunnels beneath the city. Rapid transit/subway lines exist in the upper layers of the tunnels. Below those are tunnels used for freight purposes, allowing for efficient product movement over longer distances. 
+    * Major streets are two-way streets, with the curb-most lane used for buses only. Beyond that is a protected two-way bike lane. The inner lanes may be used by cars and trucks. Cars are autonomous vehicles that people can rent like Ubers. Minor streets are one-way only for large vehicles. There is still a dedicated bus lane, and the bike lanes are still two-way. 
+    * Energy: the city is powered by a variety of energy sources. Solar technology is implemented wherever possible (such as on rooftops when roof gardens don't exist). Wind farms exist at a offsite location, as do nuclear powerplants. Because most technologies are now dependent on electricity and not fossil fuels, it is important for energy to be plentiful and clean. 
 
+## Project Images
 
+Overall city view, showing major streets. There is a grid system, where there is a major street every mile, running E/W and N/S. There are also radial major streets that allow easier diagonal travel. Exception to this rule: There are two major streets running directly N/S and E/W of the city's geographical center, which is a half-mile away from the nearest parallel major streets. 
+![](./overall-view.png)
 
+City center view, showing some minor streets. The grid system's numbering is shown as well. Each minor block has 100 possible address numbers, with 800 numbers in a mile (each minor block is 1/8 mile). At the center of the city is a common park/gathering spot. The central circle is a large plaza, and the inner square is an elevated platform. Dashed lines indicate walking paths, and the minor circles scattered around the central square are meant to be smaller gathering spots. 
+![](./center-city.png)
+
+Sample of the city coordinate system at an intersection. 
+![](./intersection.png)
+
+City airport: includes all appropriate facilities necessary for an airport to operate at a large capacity. For simplicity, taxiways are not shown. Because the planning of the city is rather specific, there may not be opportunities to expand by adding new airports unless new land is acquired. Thus, it is better to leave room for expansion through adding landside facilities rather than airside facilities; the runway layout allows for capacity to be improved this way without major changes. 
+![](./airport.png)
