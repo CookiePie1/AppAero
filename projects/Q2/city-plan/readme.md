@@ -50,6 +50,8 @@ The aim of this project is to apply principles of urban planning and transportat
 
 ## Project Images
 
+** Note that this project is best viewed in a CAD software, as the images don't really do justice to its scale. 
+
 Overall city view, showing major streets. There is a grid system, where there is a major street every mile, running E/W and N/S. There are also radial major streets that allow easier diagonal travel. Exception to this rule: There are two major streets running directly N/S and E/W of the city's geographical center, which is a half-mile away from the nearest parallel major streets. 
 ![](./overall-view.png)
 
