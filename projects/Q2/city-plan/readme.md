@@ -25,91 +25,7 @@ The aim of this project is to apply principles of urban planning and transportat
 6. Street Names
     * These names have a variety of inspirations, from cities like Chicago and others. 
     * Grid system: Each minor block is 1/8 mile, which is 660 feet. Thus, 8 blocks is a mile. In each minor block there are 100 possible address numbers, and the next block starts at the next 100. Thus, you can figure out where you are in the city based only on the grid coordinates. The normal grid streets have a direction in front of the street name, ex. N. Central Ave. This is the portion of Central Ave that runs in the north half of the city. Same applies for S, E, and W. 
-    * Major East-West Streets
-        * ON/S: E/W Main St
-        * 400N: E/W State St
-        * 400S: E/W Walnut St
-        * 1200N: E/W DuSable St
-        * 1200S: E/W Jacobs Ave
-        * 2000N: E/W Mies van der Rohe Ave (Mies Ave)
-        * 2000S: E/W Woodlawn St
-        * 2800N: E/W Oakton St
-        * 2800S: E/W Ida B. Wells Ave (Wells Ave)
-        * 3600N: E/W Baldwin Ave
-        * 3600S: E/W Sullivan St
-        * 4400N: E/W Chicago Ave
-        * 4400S: E/W Waters St
-        * 5200N: E/W Charleston St
-        * 5200S: E/W Cuyahoga Ave
-        * 6000N: E/W Tubman St
-        * 6000S: E/W Iselin St
-        * 6800N: E/W Cambridge St
-        * 6800S: E/W Detroit Ave
-        * 7600N: E/W Swift St
-        * 7600S: E/W Watson St
-        * 8400N: E/W Commerce St
-        * 8400S: E/W Irwin St
-        * 9200N: E/W Peach St
-        * 9200S: E/W Milwaukee Ave
-        * 10000N: E/W Everett St
-        * 10000S: E/W Rainier St
-    * Major North-South Streets
-        * 0E/W: N/S Central Ave
-        * 400E: N/S Grand Ave
-        * 400W: N/S Lafayette St
-        * 1200E: N/S Coretta St
-        * 1200W: N/S Foster St
-        * 2000E: N/S Division Ave
-        * 2000W: N/S Providence St
-        * 2800E: N/S Gary St
-        * 2800W: N/S Malcolm St
-        * 3600E: N/S Park Ave
-        * 3600W: N/S Stonewall St
-        * 4400E: N/S Mandela St
-        * 4400W: N/S College Ave
-        * 5200E: N/S Newton St
-        * 5200W: N/S Swanson St
-        * 6000E: N/S Sunshine Ave
-        * 6000W: N/S Western Ave
-        * 6800E: N/S Renton St
-        * 6800W: N/S Portland St
-        * 7600E: N/S Canal St
-        * 7600W: N/S Reed Ave
-        * 8400E: N/S Chavez St
-        * 8400W: N/S Rowe St
-        * 9200E: N/S Pulaski Ave
-        * 9200W: N/S Albany St
-        * 10000E: N/S Beacon St
-        * 10000W: N/S Boylston St
-    * Diagonal Streets
-        * Quadrant 1, 45 deg N of E: International Blvd - connects to Airport Rd
-        * Quadrant 1, 27 deg N of E: Rainbow Rd
-        * Quadrant 1, 63 deg N of E: Amsterdam Ave
-        * Quadrant 1, 53 deg N of E: Schuylkill St
-        * Quadrant 1, 37 deg N of E: Clybourne St
-        * Quadrant 1, 14 deg N of E: Union Ave
-        * Quadrant 1, 76 deg N of E: Sussex St
-        * Quadrant 2, 14 deg N of W: Frost St
-        * Quardant 2, 37 deg N of W: Village St
-        * Quadrant 2, 53 deg N of W: Cypress St
-        * Quadrant 2, 76 deg N of W: Logan St
-        * Quadrant 2, 27 deg N of W: Carnegie St
-        * Quadrant 2, 45 deg N of W: Lincoln Ave
-        * Quadrant 2, 63 deg N of W: Elizabeth Cady Stanton Ave (Stanton Ave)
-        * Quadrant 3, 63 deg S of W: Michigan Ave
-        * Quadrant 3, 45 deg S of W: Dempster St
-        * Quadrant 3, 27 deg S of W: Bedford Ave
-        * Quadrant 3, 76 deg S of W: Greenpoint Ave
-        * Quadrant 3, 53 deg S of W: Newark Ave
-        * Quadrant 3, 37 deg S of W: Spring St
-        * Quadrant 3, 14 deg S of W: Locust St
-        * Quadrant 4, 14 deg S of E: Jersey Ave
-        * Quadrant 4, 37 deg S of E: Branch St
-        * Quadrant 4, 53 deg S of E: Lexington St
-        * Quadrant 4, 76 deg S of E: Holyoke St
-        * Quadrant 4, 27 deg S of E: Martin Luther King Jr. Blvd (MLK Blvd)
-        * Quadrant 4, 45 deg S of E: Euclid Ave
-        * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
+    * See a list of names at the end of this document. 
 7. Zoning
     * Zoning types:
         * Industrial - purple
@@ -145,3 +61,90 @@ Sample of the city coordinate system at an intersection.
 
 City airport: includes all appropriate facilities necessary for an airport to operate at a large capacity. For simplicity, taxiways are not shown. Because the planning of the city is rather specific, there may not be opportunities to expand by adding new airports unless new land is acquired. Thus, it is better to leave room for expansion through adding landside facilities rather than airside facilities; the runway layout allows for capacity to be improved this way without major changes. 
 ![](./airport.png)
+
+## Appendix A: Street Names
+* Major East-West Streets
+    * ON/S: E/W Main St
+    * 400N: E/W State St
+    * 400S: E/W Walnut St
+    * 1200N: E/W DuSable St
+    * 1200S: E/W Jacobs Ave
+    * 2000N: E/W Mies van der Rohe Ave (Mies Ave)
+    * 2000S: E/W Woodlawn St
+    * 2800N: E/W Oakton St
+    * 2800S: E/W Ida B. Wells Ave (Wells Ave)
+    * 3600N: E/W Baldwin Ave
+    * 3600S: E/W Sullivan St
+    * 4400N: E/W Chicago Ave
+    * 4400S: E/W Waters St
+    * 5200N: E/W Charleston St
+    * 5200S: E/W Cuyahoga Ave
+    * 6000N: E/W Tubman St
+    * 6000S: E/W Iselin St
+    * 6800N: E/W Cambridge St
+    * 6800S: E/W Detroit Ave
+    * 7600N: E/W Swift St
+    * 7600S: E/W Watson St
+    * 8400N: E/W Commerce St
+    * 8400S: E/W Irwin St
+    * 9200N: E/W Peach St
+    * 9200S: E/W Milwaukee Ave
+    * 10000N: E/W Everett St
+    * 10000S: E/W Rainier St
+* Major North-South Streets
+    * 0E/W: N/S Central Ave
+    * 400E: N/S Grand Ave
+    * 400W: N/S Lafayette St
+    * 1200E: N/S Coretta St
+    * 1200W: N/S Foster St
+    * 2000E: N/S Division Ave
+    * 2000W: N/S Providence St
+    * 2800E: N/S Gary St
+    * 2800W: N/S Malcolm St
+    * 3600E: N/S Park Ave
+    * 3600W: N/S Stonewall St
+    * 4400E: N/S Mandela St
+    * 4400W: N/S College Ave
+    * 5200E: N/S Newton St
+    * 5200W: N/S Swanson St
+    * 6000E: N/S Sunshine Ave
+    * 6000W: N/S Western Ave
+    * 6800E: N/S Renton St
+    * 6800W: N/S Portland St
+    * 7600E: N/S Canal St
+    * 7600W: N/S Reed Ave
+    * 8400E: N/S Chavez St
+    * 8400W: N/S Rowe St
+    * 9200E: N/S Pulaski Ave
+    * 9200W: N/S Albany St
+    * 10000E: N/S Beacon St
+    * 10000W: N/S Boylston St
+* Diagonal Streets
+    * Quadrant 1, 45 deg N of E: International Blvd - connects to Airport Rd
+    * Quadrant 1, 27 deg N of E: Rainbow Rd
+    * Quadrant 1, 63 deg N of E: Amsterdam Ave
+    * Quadrant 1, 53 deg N of E: Schuylkill St
+    * Quadrant 1, 37 deg N of E: Clybourne St
+    * Quadrant 1, 14 deg N of E: Union Ave
+    * Quadrant 1, 76 deg N of E: Sussex St
+    * Quadrant 2, 14 deg N of W: Frost St
+    * Quardant 2, 37 deg N of W: Village St
+    * Quadrant 2, 53 deg N of W: Cypress St
+    * Quadrant 2, 76 deg N of W: Logan St
+    * Quadrant 2, 27 deg N of W: Carnegie St
+    * Quadrant 2, 45 deg N of W: Lincoln Ave
+    * Quadrant 2, 63 deg N of W: Elizabeth Cady Stanton Ave (Stanton Ave)
+    * Quadrant 3, 63 deg S of W: Michigan Ave
+    * Quadrant 3, 45 deg S of W: Dempster St
+    * Quadrant 3, 27 deg S of W: Bedford Ave
+    * Quadrant 3, 76 deg S of W: Greenpoint Ave
+    * Quadrant 3, 53 deg S of W: Newark Ave
+    * Quadrant 3, 37 deg S of W: Spring St
+    * Quadrant 3, 14 deg S of W: Locust St
+    * Quadrant 4, 14 deg S of E: Jersey Ave
+    * Quadrant 4, 37 deg S of E: Branch St
+    * Quadrant 4, 53 deg S of E: Lexington St
+    * Quadrant 4, 76 deg S of E: Holyoke St
+    * Quadrant 4, 27 deg S of E: Martin Luther King Jr. Blvd (MLK Blvd)
+    * Quadrant 4, 45 deg S of E: Euclid Ave
+    * Quadrant 4, 63 deg S of E: Pennsylvania Ave (Penn Ave)
