@@ -1,4 +1,13 @@
 # Progress Tracking: Independent Study
+## Quarter 3
+1. Day 1
+    1. Q3 Planning
+    2. Begin project 1
+2. Day 2 - Absent
+3. Day 3 - Absent
+4. Day 4 - proj
+5. Day 5 - proj
+6. Day 6 - proj, concept sketches
 ## Quarter 2
 
 1. Day 1
@@ -25,6 +34,7 @@
     1. Absent
 10. Day 10
     1. Zoning (proj)
+---
 ## Quarter 1
 
 1. Day 1: Cakir Orientation, Course beginnings
