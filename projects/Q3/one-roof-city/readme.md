@@ -1,4 +1,4 @@
-# Project 1: One Roof City
+# One Roof City
 
 The goal: design a building/skyscraper with all the resources to sustain an entire community. 
 
@@ -6,7 +6,8 @@ Inspiration: Whittier, Alaska
 
 Rules:
 * You may have tunnels or other forms of connecting a few buildings but it should be as condensed as possible and one should be able to never leave the building if they so choose. 
-* Fresh-air spaces are encouraged
+* Fresh-air spaces are encouraged. 
+* Ensure that occupants may evacuate in an emergency. 
 
 ## Brainstorming and Design Considerations
 * Required services/resources
@@ -81,3 +82,16 @@ Rules:
 * Overall, building entire cities on the scale of a few buildings is usually impractical and not a good idea. Particularly, you limit the growth capacity of your "city" and it is usually not necessary or right to confine people to a building for an extended period of time. 
 
 ## Sketches and Visual Ideas
+
+![](tunnels-trains.jpg)
+An idea in which multiple buildings are connected via tunnels. An APM-type tram moves between different buildings. The buildings are all clustered very close to each other. Additionally, an APM is available to external transportation, including airports, car services, intercity rail, and buses. This idea can be scaled up or down as needed. 
+
+![](skyscraper.jpg)
+An idea in which a simple skyscraper is zoned from within for different uses. This sketch can be refined to include specific spaces, but it follows the principle of land use planning on a much smaller and particular scale. It includes all of the essentials in a city, but under one roof. 
+
+![](plan.jpg)
+An idea for a more spaced-out concept that still follows the "one roof" principle by having tunnels between each building. Many buildings are mixed-use, but ones that are more disruptive can be separated from spaces that require more comfort or privacy (such as residential spaces). This concept also includes some open space or a small park, as getting fresh air and sunlight is still a necessity for humans. Again, an APM-type tram moves people between buildings as well as the walking tunnel. Intercity rail is planned directly onsite, and access is available to buses and airports. 
+
+## Further Considerations 
+* What is the human effect of living indoors for extended periods of time? Do larger spaces help to claustraphobia?
+* How will utilities and public works be planned in such small and densely packed spaces?
