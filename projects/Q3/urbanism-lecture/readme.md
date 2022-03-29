@@ -1,6 +1,6 @@
 # Urbanism Lecture
 
-A lecture was given to my architecture class on Friday, March 11. The slides can be found in this folder. 
+A lecture was given to my architecture class on Friday, March 11. The slides can be found [here](./lecture-slides.pdf). 
 
 The presentation attempted to connect the topics of architecture, engineering, and environmental science under the broad concept of urbanism. Also included were references to social sciences, which of course play a role in cities as well. 
 
