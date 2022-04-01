@@ -79,6 +79,7 @@ Rules:
 ## What are the challenges associated with Interior Urbanism?
 * Mainly, that people often get lost inside large, poorly planned indoor spaces that often grow organically rather than in a designed fashion
 * Lack of access to fresh air or the outside world in general. Consider the greek myth about the Lotus flowers: the people were stuck on the island and forgot about anything else that happened outside of their shrunken world. 
+* Living for long periods of time in confined spaces, no matter how large they actually are, can have major mental health impacts on residents. 
 * Overall, building entire cities on the scale of a few buildings is usually impractical and not a good idea. Particularly, you limit the growth capacity of your "city" and it is usually not necessary or right to confine people to a building for an extended period of time. 
 
 ## Sketches and Visual Ideas
