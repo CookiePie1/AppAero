@@ -14,8 +14,6 @@ G. State what grade you think I would assign you based on your understanding and
 
 # Q3 Self Assessment
 
-** No changes **
-
 1. Concepts I know well
     1. Ways that cities relate to the environment
     2. Civil engineering and environmental science applications of urbanism and city planning
